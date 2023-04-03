@@ -5,8 +5,6 @@ services:
     container_name: portainer
     image: portainer/portainer-ce:latest
     restart: always
-    security_opt:
-      - no-new-privileges:true
     ports:
       - 9000:9000
       - 9443:9443
