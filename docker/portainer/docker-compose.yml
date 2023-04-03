@@ -1,6 +1,8 @@
-version: "3"
+version: "3.7"
+
 services:
   portainer:
+    container_name: portainer
     image: portainer/portainer-ce:latest
     restart: always
     security_opt:
@@ -9,8 +11,11 @@ services:
       - 9000:9000
       - 9443:9443
     volumes:
-      - /var/run/docker.sock:/var/run/ docker.sock
+      - /var/run/docker.sock:/var/run/docker.sock
       - portainer-data:/data
+    environment:
+      - TZ=America/Sao_Paulo
+    network_mode: 'bridge'
+
 volumes:
   portainer-data:
-    driver: local
