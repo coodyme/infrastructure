@@ -1,17 +1,36 @@
-version: "2.1"
+version: "3.8"
+
 services:
   duplicati:
-    image: lscr.io/linuxserver/duplicati:latest
     container_name: duplicati
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Etc/UTC
-      - CLI_ARGS= #optional
-    volumes:
-      - /path/to/appdata/config:/config
-      - /path/to/backups:/backups
-      - /path/to/source:/source
+    restart: unless-stopped
+    image: lscr.io/linuxserver/duplicati:latest
     ports:
       - 8200:8200
-    restart: unless-stopped
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - /duplicati/config:/config
+      - /:/source
+      - /var/backups:/backups
+    networks:
+      - duplicati
+
+volumes:
+  duplicati:
+    driver: local
+    driver_opts:
+      type: none
+      device: /opt/duplicati
+      o: bind
+
+networks:
+  duplicati:
+    name: duplicati
+    driver: bridge
+    enable_ipv6: false
+    ipam:
+      config:
+        - subnet: "172.18.0.0/16"

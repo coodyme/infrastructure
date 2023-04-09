@@ -8,14 +8,14 @@ services:
     ports:
       - 9000:9000
       - 9443:9443
+    environment:
+      - TZ=${TZ}
+      - PUID=${PUID}
+      - PGID=${PGID}
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - portainer-data:/data
-    environment:
-      - TZ=America/Sao_Paulo
-      - PUID=1000
-      - PGID=1000
+      - opt/portainer:/data
     network_mode: 'bridge'
 
 volumes:
-  portainer-data:
+  portainer:
