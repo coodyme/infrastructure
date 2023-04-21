@@ -1,26 +1,66 @@
 version: '3.7'
 
+volumes:
+  bitwarden:
+  bitwarden-postgres:
+
+
+networks:
+  bitwarden:
+    name: bitwarden
+    driver: bridge
+    enable_ipv6: false
+    ipam:
+      config:
+        - subnet: ${SUBNET}
+
 services:
-  vaultwarden:
-    container_name: vaultwarden
+  bitwarden:
+    container_name: bitwarden
     image: vaultwarden/server:latest
     restart: unless-stopped
     ports:
       - 8002:80
       - 3012:3012
-    volumes:
-      - bw-data:/data
-      - /etc/localtime:/etc/localtime:ro
-      - /etc/timezone:/etc/timezone:ro
-      - bw-data:/log
     environment:
-      - WEBSOCKET_ENABLED=true
+      - TZ=${TZ}
+      - PUID=${PUID}
+      - PGID=${PGID} - WEBSOCKET_ENABLED=true
+      #- DOMAIN=${DOMAIN}
       - SIGNUPS_ALLOWED=true
-      - ADMIN_TOKEN=<ADMIN_PW>
+      - ADMIN_TOKEN=${ADMIN_TOKEN}
       - INVITATIONS_ALLOWED=true
-      - SHOW_PASSWORD_HINT=false
+      - SHOW_PASSWORD_HINT=true
+    volumes:
+      - bitwarden:/data
+      - bitwarden:/log
+    networks:
+      bitwarden:
+        ipv4_address: ${IPV4_ADDRESS}
 
-volumes:
-  vaultwarden:
-
-
+  bitwarden-postgres:
+    container_name: bitwarden-postgres
+    restart: always
+    image: postgres:alpine
+    ports:
+      - 5432:5432
+    environment:
+      - TZ=${TZ}
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    volumes:
+      - bitwarden-postgres:/var/lib/postgresql/data
+    networks:
+      - bitwarden
+    healthcheck:
+      test:
+        [
+          'CMD-SHELL',
+          'pg_isready -h localhost -U ${POSTGRES_USER} -d ${POSTGRES_DB}'
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
