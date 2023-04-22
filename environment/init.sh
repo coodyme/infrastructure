@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function setup_gh_cli() {
 	echo -e ''
@@ -99,9 +99,31 @@ function stop_os() {
 }
 
 function init() {
-  echo "--------------------------------------------"
-  echo "################### LYNX ###################"
-	echo "--------------------------------------------"
+
+
+# Define the options
+options=("Option 1" "Option 2" "Option 3" "Quit")
+
+# Loop through the options and display the menu
+while true; do
+    echo "Select an option:"
+    for i in "${!options[@]}"; do
+        echo "$((i+1)). ${options[$i]}"
+    done
+    read -rp "Enter your choice: " choice
+
+    # Check if the choice is valid
+    if (( choice < 1 || choice > ${#options[@]} )); then
+        echo "Invalid choice. Please try again."
+    elif [ "${options[choice-1]}" == "Quit" ]; then
+        echo "Goodbye!"
+        exit 0
+    else
+        echo "You selected: ${options[choice-1]}"
+        # Add your command(s) for the selected option here
+        # ...
+    fi
+done
 }
 
 init
