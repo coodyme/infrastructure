@@ -3,14 +3,7 @@ if status is-interactive
 end
 
 function fish_greeting
-    echo Hello Augusto!
-    echo The time is (set_color yellow; date +%T; set_color normal) and this machine is called $hostname
-end
-
-if not set -q TMUX
-    set -g TMUX tmux new-session -d -s base
-    eval $TMUX
-    tmux attach-session -d -t base
+    echo Hello Augusto! You are currently logged in $hostname
 end
 
 source ~/.asdf/asdf.fish

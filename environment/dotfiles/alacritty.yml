@@ -1,95 +1,3 @@
-# Configuration for Alacritty, the GPU enhanced terminal emulator.
-
-# Setup term for programs to be able to use it
-env:
-  TERM: xterm-256color-italic  # adding this because of italic support: https://apple.stackexchange.com/questions/266333/how-to-show-italic-in-vim-in-iterm2
-
-window:
-  # Spread additional padding evenly around the terminal content.
-  dynamic_padding: false
-
-  # Startup Mode (changes require restart)
-  startup_mode: Maximized
-
-  # Window decorations
-  #
-  # Available values:
-  # - full: borders and title bar
-  # - none: neither borders nor title bar
-  # - transparent: title bar, transparent background and title bar buttons
-  # - buttonless: title bar, transparent background, but no title bar buttons
-  decorations: transparent
-  # padding top and left
-  padding:
-    x: 0
-    y: 25
-# Sample Font configuration for font: OperatorMonoLig Nerd Font.
-# Feel free to use different font configuration family & face for each sections
-font:
-  # Normal font face - Also used to draw glyphs on tmux & VIM
-  # NOTE: You may use any font you'd like but make sure the normal fonts
-  # support ligatures/glyphs. That's used by tmux & VIM to provide a better
-  # UI for powerline & tmux bottom bar.
-  normal:
-    # Font name
-    family: OperatorMono Font
-    # Font face
-    style: Light
-
-  # Bold font face
-  bold:
-    family: OperatorMono Font
-    style: Book
-
-  # Italic font face
-  italic:
-    family: OperatorMono Font
-    style: Light Italic
-
-  # Bold italic font face
-  # Note: Since i don't have a font italic version of this font, I just specified
-  # italic & it just works. You may specifiy the bold italic version if it exists
-  # for your font
-  bold_italic:
-    family: OperatorMono Font
-    style: Book Italic
-
-  # Font size
-  size: 18.0
-
-  # Offset is the extra space around each character. `offset.y` can be thought of
-  # as modifying the line spacing, and `offset.x` as modifying the letter spacing
-  # I've given in 14 spacing which fits really well with my fonts, you may change it
-  # to your convenience but make sure to adjust 'glyph_offset' appropriately post that
-  offset:
-    x: 0
-    y: 0
-
-  # Note: This requires RESTART
-  # By default when you change the offset above you'll see an issue, where the texts are bottom
-  # aligned with the cursor, this is to make sure they center align.
-  # This offset should usually be 1/2 of the above offset-y being set.
-  glyph_offset:
-    x: 0
-    # Keeping this as half of offset to vertically align the text in cursor
-    y: 0
-
-  # Better font rendering for mac
-  use_thin_strokes: true
-
-selection:
-  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
-
-  # When set to `true`, selected text will be copied to the primary clipboard.
-  save_to_clipboard: true
-
-# Live config reload (changes require restart)
-live_config_reload: true
-
-# Setup some amazing custom key bindings here - Best thing is you can setup key bindings
-# using Mac's 'command' to control your tmux.
-# A great reference: https://arslan.io/2018/02/05/gpu-accelerated-terminal-alacritty/#make-alacritty-feel-like-iterm2
-
 scrolling:
   # maximum number of lines in the scrollback buffer. Specifying '0' will
   # disable scrolling.
@@ -99,56 +7,77 @@ scrolling:
   # scrollback is enabled (history > 0).
   multiplier: 3
 
-key_bindings:
-  # Use command + [ - to go to previous tmux window
-  - { key: LBracket, mods: Command, chars: "\x5c\x70" }
-  # Use command + ] - to go to previous tmux window
-  - { key: RBracket, mods: Command, chars: "\x5c\x6e" }
-  # ctrl-^ doesn't work in some terminals like alacritty
-  - { key: Key6, mods: Control, chars: "\x1e" }
+window:
+  # Spread additional padding evenly around the terminal content.
+  dynamic_padding: false
 
-# Colors (Gruvbox dark)
+  # Startup Mode (changes require restart)
+  startup_mode: Windowed
+
+  # Window decorations
+  #
+  # Available values:
+  # - full: borders and title bar
+  # - none: neither borders nor title bar
+  # - transparent: title bar, transparent background and title bar buttons
+  # - buttonless: title bar, transparent background, but no title bar buttons
+  decorations: Full
+  # padding top and left
+  padding:
+    x: 25
+    y: 20
+
+  opacity: 1
+
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Regular
+  bold:
+    family: FiraCode Nerd Font
+    style: Bold
+  italic:
+    family: FiraCode Nerd Font
+    style: Italic
+
+  # Point size of the font
+
+  size: 10
+
+# Colors (Ayu Dark)
 colors:
   # Default colors
   primary:
-    # hard contrast: background = '#1d2021'
-    background: "#282828"
-    # soft contrast: background = '#32302f'
-    foreground: "#ebdbb2"
+    background: "#000000"
+    foreground: "#FFFFFF"
 
   # Normal colors
   normal:
-    black: "#282828"
-    red: "#cc241d"
-    green: "#98971a"
-    yellow: "#d79921"
-    blue: "#458588"
-    magenta: "#b16286"
-    cyan: "#689d6a"
-    white: "#a89984"
+    black: "#000000"
+    red: "0xEA6C73"
+    green: "0x91B362"
+    yellow: "0xF9AF4F"
+    blue: "0x53BDFA"
+    magenta: "0xFAE994"
+    cyan: "0x90E1C6"
+    white: "0xC7C7C7"
 
   # Bright colors
   bright:
-    black: "#928374"
-    red: "#fb4934"
-    green: "#b8bb26"
-    yellow: "#fabd2f"
-    blue: "#83a598"
-    magenta: "#d3869b"
-    cyan: "#8ec07c"
-    white: "#ebdbb2"
+    black: "#000000"
+    red: "0xF07178"
+    green: "0xC2D94C"
+    yellow: "0xFFB454"
+    blue: "0x59C2FF"
+    magenta: "0xFFEE99"
+    cyan: "0x95E6CB"
+    white: "0xFFFFFF"
 
 bell:
   animation: EaseOutExpo
   color: "0xffffff"
   duration: 0
 
-shell:
-  program: /usr/local/bin/fish
-  args:
-    - -l
-    - -c
-    - "tmux attach || tmux"
 mouse:
   # Click settings
   #
@@ -159,7 +88,7 @@ mouse:
   # triple_click: { threshold: 300 }
 
   # If this is `true`, the cursor is temporarily hidden when typing.
-  hide_when_typing: true
+  hide_when_typing: false
 
   # URL launcher
   # url:

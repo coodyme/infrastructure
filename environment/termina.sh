@@ -1,6 +1,10 @@
-# power line fonts and fira code
-sudo apt install fonts-powerline
-sudo apt install fonts-firacode
+# Install Fonts
+https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/FiraCode.zip
+
+place in ./fonts
+
+ fc-cache -fv
+ 
 
 # Fish
 sudo apt-get install fish
@@ -16,9 +20,16 @@ curl -sS https://starship.rs/install.sh | sh
 starship init fish | source
 
 # tmux
-sudo apt install tmux
+sudo apt-get install tmux
 
+# ~/.tmux.conf
+tmux source ~/.tmux/tmux.conf
 
+#reload
+tmux source-file ~/.tmux.conf
+
+# Install plugin
+.tmux/plugins/tpm/scripts/install_plugins.sh
 
 # ASDF
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.3
@@ -32,3 +43,5 @@ mkdir -p ~/.config/fish/completions; and ln -s ~/.asdf/completions/asdf.fish ~/.
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 
 asdf plugin-add python
+
+
