@@ -13,4 +13,6 @@ if not set -q TMUX
     tmux attach-session -d -t base
 end
 
+source ~/.asdf/asdf.fish
+
 starship init fish | source
