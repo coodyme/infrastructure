@@ -2,17 +2,6 @@
 
 add_newline = true
 
-palette = 'coody'
-
-[palettes.coody]
-blue='#007CF0'
-white='#EAEAEA'
-cyan='#00DFD8'
-magenta='#FF0080'
-yellow='#FFBD2E'
-green='#27C93F'
-red='#EA3323'
-
 [username]
 style_user = "white bold"
 style_root = "white bold"
@@ -27,7 +16,7 @@ trim_at = "."
 disabled = false
 
 [character]
-success_symbol = "[➜](bold green)"
+success_symbol = "[➜](bold white)"
 error_symbol = "[✗](bold red)"
 
 [directory]
