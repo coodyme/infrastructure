@@ -12,5 +12,7 @@ system_setup() {
 	sudo rm -Rf /etc/firefox/
 	sudo rm -Rf /usr/lib/firefox*
 	sudo snap remove firefox
+
+	sudo apt install ubuntu-restricted-extras
 }
 

@@ -44,4 +44,7 @@ asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 
 asdf plugin-add python
 
-
+# packages
+npm install -g yarn
+npm install -g eas-cli
+npm install -g gitmoji-cli

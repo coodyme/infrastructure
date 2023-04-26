@@ -39,14 +39,9 @@ font:
     italic:
         family: FiraCode Nerd Font
         style: Italic
-
-    # Point size of the font
-
     size: 10
-
-# Colors (Ayu Dark)
+    
 colors:
-  # Default colors
   primary:
     background: "#000000"
     foreground: "#FFFFFF"
@@ -121,3 +116,7 @@ cursor:
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.
   unfocused_hollow: true
+  
+working_directory: None
+
+alt_send_esc: true
