@@ -48,3 +48,7 @@ asdf plugin-add python
 npm install -g yarn
 npm install -g eas-cli
 npm install -g gitmoji-cli
+
+# set default terminal
+sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/alacritty 50
+sudo update-alternatives --config x-terminal-emulator

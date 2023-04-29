@@ -16,6 +16,8 @@ function init() {
   echo "-------------------------------------------"
   echo "################# PEGASUS #################"
 	echo "-------------------------------------------"
+
+  alias temp="$HOME/scripts/temperature/temperature.sh"
 }
 
 init

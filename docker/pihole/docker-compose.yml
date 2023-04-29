@@ -1,0 +1,62 @@
+version: '3'
+
+services:
+  pihole-cloudflared:
+    container_name: pihole-cloudflared
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    command: proxy-dns
+
+    # See the list of environment variables at https://github.com/cloudflare/cloudflared/blob/master/cmd/cloudflared/proxydns/cmd.go
+    environment:
+      TUNNEL_DNS_UPSTREAM: "https://1.0.0.1/dns-query,https://1.1.1.1/dns-query"
+      # Listen on an unprivileged port
+      TUNNEL_DNS_PORT: 5053
+      # Listen on all interfaces
+      TUNNEL_DNS_ADDRESS: "0.0.0.0"
+    networks:
+      pihole:
+        ipv4_address: "172.27.1.22"
+
+  pihole:
+    container_name: pihole
+    hostname: pi-hole-docker
+    image: pihole/pihole:latest
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "8061:80/tcp"
+    dns:
+      - 127.0.0.1 # This will prevent DNS resolution is currently unavailable when update Gravity
+
+    environment:
+      TZ: ${TZ}
+      WEBPASSWORD: ${WEBPASSWORD}
+      IPv6: false
+      DHCP_ACTIVE: false
+      WEBUIBOXEDLAYOUT: traditional
+      QUERY_LOGGING: false
+      WEBTHEME: "default-darker"
+
+      # Use Cloudflared as the DNS
+      PIHOLE_DNS_: "172.27.1.22#5053"
+
+    volumes:
+      - "./etc-pihole:/etc/pihole"
+      - "./etc-dnsmasq.d:/etc/dnsmasq.d"
+
+    restart: unless-stopped
+    networks:
+      pihole:
+        ipv4_address: "172.27.1.21"
+
+networks:
+  pihole:
+    driver: bridge
+    enable_ipv6: false
+    ipam:
+      config:
+        - subnet: "172.27.1.0/24"
+
+# sudo systemctl disable systemd-resolved.service
+# sudo systemctl stop systemd-resolved
