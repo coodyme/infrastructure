@@ -52,3 +52,13 @@ npm install -g gitmoji-cli
 # set default terminal
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/alacritty 50
 sudo update-alternatives --config x-terminal-emulator
+
+
+# minimize on click
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+
+# install media codecs
+sudo apt install ubuntu-restricted-extras
+
+#Unlock advanced window tiling
+sudo apt install gnome-shell-extension-ubuntu-tiling-assistant
