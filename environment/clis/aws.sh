@@ -14,3 +14,8 @@ aws_setup() {
 	aws configure
 }
 
+# Install the Session Manager plugin on Ubuntu
+curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_64bit/session-manager-plugin.deb" -o "session-manager-plugin.deb"
+
+sudo dpkg -i session-manager-plugin.deb
+
