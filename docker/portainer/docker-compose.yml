@@ -14,7 +14,7 @@ services:
       - PGID=${PGID}
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - opt/portainer:/data
+      - portainer:/data
     network_mode: 'bridge'
 
 volumes:
