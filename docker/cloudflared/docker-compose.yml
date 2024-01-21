@@ -6,5 +6,5 @@ services:
     restart: unless-stopped
     command: tunnel run
     environment:
-      - TUNNEL_TOKEN=${TOKEN}
+      - TUNNEL_TOKEN=$TOKEN
     network_mode: 'bridge'
