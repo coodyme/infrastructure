@@ -1,0 +1,53 @@
+name: CI - Continuous Integration and Checks
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - develop
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    if: github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: CHECKOUT
+        uses: actions/checkout@v3
+
+      - name: SETUP NODE and CACHE
+        uses: actions/setup-node@v3
+        id: setup-node
+        with:
+          node-version-file: ".node-version"
+          cache: yarn
+
+      - name: CACHE ESLINT
+        uses: actions/cache@v3
+        with:
+          path: ${{ github.workspace }}/.eslintcache
+          key: ${{ runner.os }}-eslint-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**/*.ts', '**/*.tsx') }}
+          restore-keys: |
+            ${{ runner.os }}-eslint-
+
+      - name: INSTALL DEPENDENCIES
+        run: yarn install
+
+      - name: LINT
+        run: yarn lint
+
+      - name: TYPE CHECK
+        run: yarn typecheck
+
+      - name: BUILD
+        run: yarn build

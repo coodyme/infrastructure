@@ -1,0 +1,36 @@
+name: Sync - Syncrhonize git repository
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - develop
+    types: [closed]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: CHECKOUT REPOSITORY
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: SETUP SSH
+        run: |
+          mkdir -p ~/.ssh/
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+
+      - name: SETUP GIT
+        run: |
+          git config --global user.email "${{ vars.GIT_USER_EMAIL }}"
+          git config --global user.name "${{ vars.GIT_USER_NAME }}"
+
+      - name: PUSH TO REPOSITORY
+        run: |
+          git remote add sync ${{ vars.SSH_REPOSITORY }}
+          git push sync --force

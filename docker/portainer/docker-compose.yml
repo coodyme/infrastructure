@@ -6,7 +6,7 @@ services:
     image: portainer/portainer-ce:latest
     restart: always
     ports:
-      - 9000:9000
+      - 9000:9000 
       - 9443:9443
     environment:
       - TZ=${TZ}
@@ -14,7 +14,7 @@ services:
       - PGID=${PGID}
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - portainer:/data
+      - ${PATH}/portainer:/data
     network_mode: 'bridge'
 
 volumes:

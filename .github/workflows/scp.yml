@@ -1,0 +1,19 @@
+# Write an action to copy files usign scp from github to the server
+name: SCP - Copy files to remote server 
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  copy_files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: CHECKOUT REPOSITORY
+        uses: actions/checkout@v2
+
+      - name: COPY FILES TO SERVER
+        run: |
+          scp -r ${{ github.workspace }}/* user@server:/path/to/destination
