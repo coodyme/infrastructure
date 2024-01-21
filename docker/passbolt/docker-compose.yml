@@ -55,7 +55,7 @@ services:
       - 443:443
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - ./traefik.yml:/traefik.yml:ro
+      - ./traefik.yaml:/traefik.yaml:ro
       - ./conf/:/etc/traefik/conf
       - ./shared/:/shared
     environment:
