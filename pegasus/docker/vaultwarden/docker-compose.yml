@@ -18,19 +18,19 @@ services:
       - LOGIN_RATELIMIT_SECONDS=60
       - ADMIN_RATELIMIT_MAX_BURST=10
       - ADMIN_RATELIMIT_SECONDS=60
+      - DOM
       - SENDS_ALLOWED=false
       - EMERGENCY_ACCESS_ALLOWED=true
       - WEB_VAULT_ENABLED=true
-      - ADMIN_TOKEN=$ADMIN_TOKEN
+      - ADMIN_TOKEN=$VAULTWARDEN_ADMIN_TOKEN
       - INVITATIONS_ALLOWED=true
       - SHOW_PASSWORD_HINT=false
       - SIGNUPS_ALLOWED=false
     volumes:
-      - vaultwarden:/data
-      - vaultwarden:/log
+      - /vaultwarden:/data
+      - /vaultwarden:/log
     networks:
       vaultwarden:
-        ipv4_address: $VAULTWARDEN_IPV4_ADDRESS
     depends_on:
       - postgresql
 
@@ -48,15 +48,14 @@ services:
       - POSTGRES_USER=$POSTGRES_USER
       - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
     volumes:
-      - postgresql:/var/lib/postgresql/data
+      - /postgresql:/var/lib/postgresql/data
     networks:
-      bitwarden:
-        ipv4_address: ${POSTGRES_IPV4_ADDRESS}
+      vaultwarden:
     healthcheck:
       test:
         [
           'CMD-SHELL',
-          'pg_isready -h localhost -U $POSTGRES_USER -d $POSTGRES_DB'
+          'pg_isready -h localhost -U ${POSTGRES_USER} -d ${POSTGRES_DB}'
         ]
       interval: 5s
       timeout: 5s
@@ -66,10 +65,6 @@ networks:
   vaultwarden:
     name: vaultwarden
     driver: bridge
-    enable_ipv6: false
-    ipam:
-      config:
-        - subnet: ${VAULTWARDEN_SUBNET}
 
 volumes:
   vaultwarden:
