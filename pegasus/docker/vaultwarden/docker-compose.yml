@@ -30,35 +30,6 @@ services:
       - /vaultwarden:/log
     networks:
       vaultwarden:
-    depends_on:
-      - postgresql
-
-  postgresql:
-    container_name: postgresql
-    restart: always
-    image: postgres:alpine
-    ports:
-      - 5433:5432
-    environment:
-      - TZ=$TZ
-      - PUID=$PUID
-      - PGID=$PGID
-      - POSTGRES_DB=$POSTGRES_DB
-      - POSTGRES_USER=$POSTGRES_USER
-      - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
-    volumes:
-      - /postgresql:/var/lib/postgresql/data
-    networks:
-      vaultwarden:
-    healthcheck:
-      test:
-        [
-          'CMD-SHELL',
-          'pg_isready -h localhost -U ${POSTGRES_USER} -d ${POSTGRES_DB}'
-        ]
-      interval: 5s
-      timeout: 5s
-      retries: 10
 
 networks:
   vaultwarden:
@@ -67,4 +38,3 @@ networks:
 
 volumes:
   vaultwarden:
-  postgresql:
