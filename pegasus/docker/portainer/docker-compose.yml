@@ -4,17 +4,17 @@ services:
   portainer:
     container_name: portainer
     image: portainer/portainer-ce:latest
+    command: -H unix:///var/run/docker.sock
     restart: always
     ports:
       - 9000:9000 
-      - 9443:9443
     environment:
-      - TZ=${TZ}
-      - PUID=${PUID}
-      - PGID=${PGID}
+      - TZ=$TZ
+      - PUID=$PUID
+      - PGID=$PGID
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /portainer:/data
+      - portainer:/data
     networks:
       portainer:
 
@@ -25,3 +25,4 @@ networks:
 
 volumes:
   portainer:
+    name: portainer
