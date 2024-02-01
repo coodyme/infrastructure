@@ -1,0 +1,27 @@
+version: '3.7'
+
+services:
+  tailscale: 
+    container_name: tailscale 
+    image: tailscale/tailscale:stable 
+    restart: unless-stopped
+    hostname: tailscale 
+    cap_add: # Required for tailscale to work 
+      - NET_ADMIN 
+      - SYS_MODULE 
+    command: tailscaled 
+    privileged: true 
+    volumes: 
+      - tailscale:/var/lib # State data will be stored in this directory 
+      - /dev/net/tun:/dev/net/tun # Required for tailscale to work 
+    networks: 
+      - tailscale
+
+networks:
+  tailscale:
+    name: tailscale
+    driver: bridge
+
+volumes:
+  tailscale:
+    name: tailscale

@@ -24,10 +24,10 @@ services:
       - ADMIN_TOKEN=$VAULTWARDEN_ADMIN_TOKEN
       - INVITATIONS_ALLOWED=true
       - SHOW_PASSWORD_HINT=false
-      - SIGNUPS_ALLOWED=false
+      - SIGNUPS_ALLOWED=true
     volumes:
-      - /vaultwarden:/data
-      - /vaultwarden:/log
+      - vaultwarden:/data
+      - vaultwarden:/log
     networks:
       vaultwarden:
 
@@ -38,3 +38,4 @@ networks:
 
 volumes:
   vaultwarden:
+    name: vaultwarden
