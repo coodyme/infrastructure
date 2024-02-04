@@ -21,13 +21,12 @@ services:
       - SENDS_ALLOWED=false
       - EMERGENCY_ACCESS_ALLOWED=true
       - WEB_VAULT_ENABLED=true
-      - ADMIN_TOKEN=$VAULTWARDEN_ADMIN_TOKEN
+      - ADMIN_TOKEN=$ADMIN_TOKEN
       - INVITATIONS_ALLOWED=true
       - SHOW_PASSWORD_HINT=false
       - SIGNUPS_ALLOWED=true
     volumes:
       - vaultwarden:/data
-      - vaultwarden:/log
     networks:
       vaultwarden:
 
