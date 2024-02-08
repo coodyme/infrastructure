@@ -1,0 +1,38 @@
+version: "3.8"
+
+services:
+  vaultwarden-backup:
+    image: bruceforce/vaultwarden-backup
+    container_name: vaultwarden-backup
+    restart: unless-stopped
+    init: true
+    volumes:
+      - ${DATA_DIR}/vaultwarden:/data
+      - ${DATA_DIR}/vaultwarden-backup:/backup
+    environment:
+      - CRON_TIME=* 12 * * * # every day @ 12pm
+      - DELETE_AFTER=30 # delete backups older than 30 days
+      - TIMESTAMP=true
+      - UID=${PUID} # enter user that has docker permission
+      - GID=${PGID} # enter group ID for docker
+      - TZ=${TZ}
+      - BACKUP_ADD_DATABASE=true
+      - BACKUP_ADD_ATTACHMENTS=true
+      - BACKUP_ADD_CONFIG_JSON=true
+      - BACKUP_ADD_ICON_CACHE=true
+      - BACKUP_ADD_RSA_KEY=true
+      - LOG_LEVEL=INFO
+    networks:
+      - pegasus
+
+networks:
+  pegasus:
+    external: true
+
+volumes:
+  vaultwarden:
+    external: true
+  vaultwarden-backup:
+    name: vaultwarden-backup
+
+

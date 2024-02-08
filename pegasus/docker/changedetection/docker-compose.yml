@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  changedetection:
+    image: ghcr.io/dgtlmoon/changedetection.io:0.45.13
+    container_name: changedetection
+    hostname: changedetection
+    environment:
+      - TZ=${TZ}
+      - PUID=${PUID}
+      - PGID=${PGID}
+    volumes:
+      - ${DATA_DIR}/changedetection:/datastore
+    ports:
+      - 5000:5000
+    restart: unless-stopped
+    networks:
+      - pegasus
+
+networks:
+  pegasus:
+    external: true
+
+volumes:
+  changedetection:
+    name: changedetection

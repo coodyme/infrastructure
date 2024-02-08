@@ -26,14 +26,13 @@ services:
       - SHOW_PASSWORD_HINT=false
       - SIGNUPS_ALLOWED=true
     volumes:
-      - vaultwarden:/data
+      - ${DATA_DIR}/vaultwarden:/data
     networks:
-      vaultwarden:
+      pegasus:
 
 networks:
-  vaultwarden:
-    name: vaultwarden
-    driver: bridge
+  pegasus:
+    external: true
 
 volumes:
   vaultwarden:

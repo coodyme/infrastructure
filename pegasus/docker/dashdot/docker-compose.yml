@@ -1,0 +1,28 @@
+version: "3.5"
+services:
+  dashdot:
+    image: mauricenino/dashdot:5.8.3
+    restart: unless-stopped
+    container_name: dashdot
+    privileged: true
+    ports:
+      - 80:3001
+    volumes:
+      - /:/mnt/host:ro
+    environment:
+      - DASHDOT_SHOW_HOST=${DASHDOT_SHOW_HOST}
+      - DASHDOT_SHOW_DASH_VERSION=${DASHDOT_SHOW_DASH_VERSION}
+      - DASHDOT_ENABLE_CPU_TEMPS=${DASHDOT_ENABLE_CPU_TEMPS}
+      - DASHDOT_USE_IMPERIAL=${DASHDOT_USE_IMPERIAL}
+      - DASHDOT_ALWAYS_SHOW_PERCENTAGES=${DASHDOT_ALWAYS_SHOW_PERCENTAGES}
+      - DASHDOT_PAGE_TITLE=${DASHDOT_PAGE_TITLE}
+      - DASHDOT_ACCEPT_OOKLA_EULA=${DASHDOT_ACCEPT_OOKLA_EULA}
+    networks:
+      - pegasus
+
+networks:
+  pegasus:
+
+volumes:
+  dashdot:
+    name: dashdot

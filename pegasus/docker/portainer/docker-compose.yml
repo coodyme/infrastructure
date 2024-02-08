@@ -1,11 +1,11 @@
-version: "3.7"
+version: "3.8"
 
 services:
   portainer:
     container_name: portainer
     image: portainer/portainer-ce:latest
     command: -H unix:///var/run/docker.sock
-    restart: always
+    restart: unless-stopped
     ports:
       - 9000:9000 
     environment:
@@ -14,14 +14,15 @@ services:
       - PGID=$PGID
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - portainer:/data
+      - ${DATA_DIR}/portainer:/data
+    security_opt:
+      - no-new-privileges:true
     networks:
-      portainer:
+      pegasus:
 
 networks:
-  portainer:
-    name: portainer
-    driver: bridge
+  pegasus:
+    external: true
 
 volumes:
   portainer:
