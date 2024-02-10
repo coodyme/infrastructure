@@ -1,0 +1,50 @@
+version: "3.5"
+
+services:
+  huginn-postgres:
+    image: postgres:14.6-alpine
+    container_name: huginn-postgres
+    hostname: huginn-postgres
+    restart: always
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    networks:
+      - pegasus
+
+  huginn:
+    image: ghcr.io/huginn/huginn
+    container_name: huginn
+    restart: unless-stopped
+    expose:
+      - 3000
+    networks:
+      - pegasus
+    environment:
+      TIMEZONE: ${HUGINN_TIMEZONE}
+      EMAIL_FROM_ADDRESS: ${HUGINN_EMAIL_FROM_ADDRESS}
+      SMTP_DOMAIN: ${HUGINN_SMTP_DOMAIN}
+      SMTP_PASSWORD: ${HUGINN_SMTP_PASSWORD}
+      INVITATION_CODE: ${HUGINN_INVITATION_CODE}
+      SMTP_USER_NAME: ${SMTP_USER_NAME}
+      SMTP_SERVER: ${SMTP_SERVER}
+      SMTP_PORT: 465
+      SMTP_SSL: 'true'
+      SMTP_AUTHENTICATION: plain
+      ENABLE_INSECURE_AGENTS: 'true' # trust all users
+      DATABASE_ADAPTER: postgresql
+      DATABASE_USERNAME: postgres
+      DATABASE_PASSWORD: ${POSTGRES_PASSWORD}
+      DATABASE_HOST: huginn-postgres
+    depends_on:
+      - huginn-postgres
+
+networks:
+  pegasus:
+
+volumes:
+  huginn:
+    name: huginn
+  huginn-postgres:
+    name: huginn-postgres

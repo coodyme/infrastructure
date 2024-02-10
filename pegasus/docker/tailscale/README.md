@@ -13,3 +13,5 @@ To download on iOS
 ```bash
 https://apps.apple.com/us/app/tailscale/id1470499037?ls=1
 ```
+
+https://www.reddit.com/r/Tailscale/comments/swa1dk/docker_containers_access_to_tailscale_network/
