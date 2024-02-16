@@ -1,4 +1,5 @@
 version: "3"
+
 services:
   docu:
     image: amerkurev/doku:v0.0.16
@@ -7,3 +8,9 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - /:/hostroot:ro
+    networks:
+      - pegasus
+
+networks:
+  pegasus:
+    external: true

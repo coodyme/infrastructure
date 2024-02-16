@@ -17,9 +17,10 @@ services:
     networks:
       - pegasus
 
-networks:
-  pegasus:
-
 volumes:
   dockge:
     name: dockge
+
+networks:
+  pegasus:
+    external: true

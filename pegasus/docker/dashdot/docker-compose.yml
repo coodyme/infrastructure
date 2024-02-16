@@ -1,4 +1,5 @@
 version: "3.5"
+
 services:
   dashdot:
     image: mauricenino/dashdot:5.8.3
@@ -19,10 +20,11 @@ services:
       - DASHDOT_ACCEPT_OOKLA_EULA=${DASHDOT_ACCEPT_OOKLA_EULA}
     networks:
       - pegasus
-
-networks:
-  pegasus:
-
+      
 volumes:
   dashdot:
     name: dashdot
+
+networks:
+  pegasus:
+    external: true

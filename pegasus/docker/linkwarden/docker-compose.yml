@@ -32,10 +32,10 @@ services:
     networks:
       - pegasus
 
-networks:
-  pegasus:
-    external: true
-
 volumes:
   linkwarden:
     name: linkwarden
+
+networks:
+  pegasus:
+    external: true

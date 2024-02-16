@@ -23,9 +23,10 @@ services:
     networks:
       - pegasus
       
-networks:
-  pegasus:
-
 volumes:
   healthchecks:
    name: healthchecks
+
+networks:
+  pegasus:
+    external: true

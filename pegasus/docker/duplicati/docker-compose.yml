@@ -17,12 +17,12 @@ services:
     networks:
       - pegasus
     
-networks:
-  pegasus:
-    external: true
-
 volumes:
   duplicati:
     name: duplicati
   backups:
     name: backups
+
+networks:
+  pegasus:
+    external: true
