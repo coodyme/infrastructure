@@ -64,6 +64,7 @@ services:
 
   firefly-cron:
     container_name: firefly-cron
+    restart: unless-stopped
     image: alpine
     command: 
       sh -c "echo \"${CRON} wget -qO- http://${APP_URL}/api/v1/cron/${STATIC_CRON_TOKEN}\" | crontab - && crond -f -L /dev/stdout"
