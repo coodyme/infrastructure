@@ -30,6 +30,7 @@ services:
       - IS_HEROKU=${IS_HEROKU}
       - FIREFLY_III_LAYOUT=${FIREFLY_III_LAYOUT}
       - APP_URL=${APP_URL}
+      - ALLOW_WEBHOOKS=${ALLOW_WEBHOOKS}
 
       # Database
       - DB_CONNECTION=${DB_CONNECTION}
@@ -67,7 +68,7 @@ services:
     restart: unless-stopped
     image: alpine
     command: 
-      sh -c "echo \"${CRON} wget -qO- http://${APP_URL}/api/v1/cron/${STATIC_CRON_TOKEN}\" | crontab - && crond -f -L /dev/stdout"
+      sh -c "echo \"${CRON} wget -qO- ${APP_URL}/api/v1/cron/${STATIC_CRON_TOKEN}\" | crontab - && crond -f -L /dev/stdout"
     networks:
       - pegasus
 
