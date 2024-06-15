@@ -1,0 +1,53 @@
+version: "3.8"
+
+networks:
+  maybe:
+    external: true
+
+volumes:
+  maybe:
+    name: maybe
+  maybe-postgres:
+    name: maybe-postgres
+
+services:
+  maybe:
+    container_name: maybe
+    image: ghcr.io/maybe-finance/maybe:latest
+    volumes:
+      - .${DATA_DIR}/maybe:/rails/storage
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+    environment:
+      SELF_HOSTING_ENABLED: "true"
+      RAILS_FORCE_SSL: "false"
+      RAILS_ASSUME_SSL: "false"
+      GOOD_JOB_EXECUTION_MODE: async
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE}
+      DB_HOST: maybe-postgres
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      SYNTH_API_KEY: ${SYNTH_API_KEY}
+    depends_on:
+      maybe-postgres:
+        condition: service_healthy
+
+  maybe-postgres:
+    container_name: maybe-postgres
+    image: postgres:16
+    hostname: maybe-postgres
+    restart: unless-stopped
+    volumes:
+      - ${DATA_DIR}/maybe-postgres:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
