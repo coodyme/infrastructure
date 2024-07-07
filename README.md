@@ -1,8 +1,8 @@
 # Infrastructure
-This is my personal home lab infrastructure.
+Files and scripts to set up my home lab infrastructure. Here you can find the configuration files for my Proxmox, Docker, Kubernetes clusters and some Terraform scripts.
 
 ## Time Zone
-By default, my time zone is `America/Sao_Paulo` for all of my containers.
+By default, my time zone is `America/Sao_Paulo` for all of my containers. So in the .env file, the `TZ` variable is set to `America/Sao_Paulo`.
 
 ## Proxmox Configuration
 
@@ -38,3 +38,4 @@ ForwardToSyslog=no
 ```
 
 > This will reduce ssd wear by disabling journaling.
+

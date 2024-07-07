@@ -1,0 +1,106 @@
+version: "3"
+
+networks:
+  nextcloud:
+    name: nextcloud
+    driver: bridge
+    enable_ipv6: false
+    ipam:
+      config:
+        - subnet: ${NEXTCLOUD_SUBNET}
+
+volumes:
+  nextcloud:
+  postgres:
+  redis:
+
+
+services:
+  nextcloud:
+    container_name: nextcloud
+    restart: always
+    image: nextcloud:apache
+    ports:
+      - 8888:80
+      - 443:443
+    environment:
+      - TZ=${TZ}
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - POSTGRES_HOST=${POSTGRES_HOST}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      #- REDIS_HOST=${REDIS_HOST}
+      #- REDIS_HOST_PASSWORD=${REDIS_HOST_PASSWORD}
+      - DEFAULT_PHONE_REGION=BR
+      - NEXTCLOUD_TRUSTED_DOMAINS=${NEXTCLOUD_TRUSTED_DOMAINS}
+      - TRUSTED_PROXIES=${NEXTCLOUD_SUBNET}
+    volumes:
+      - nextcloud:/var/www/html
+    networks:
+      nextcloud:
+        ipv4_address: ${NEXTCLOUD_IPV4_ADDRESS}
+    depends_on:
+      - nextcloud-postgres
+      - nextcloud-redis
+
+  nextcloud-postgres:
+    container_name: nextcloud-postgres
+    restart: always
+    image: postgres:alpine
+    ports:
+      - 5432:5432
+    environment:
+      - TZ=${TZ}
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    networks:
+      nextcloud:
+        ipv4_address: ${POSTGRES_IPV4_ADDRESS}
+    healthcheck:
+      test:
+        [
+          'CMD-SHELL',
+          'pg_isready -h localhost -U ${POSTGRES_USER} -d ${POSTGRES_DB}'
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  nextcloud-redis:
+    container_name: nextcloud-redis
+    restart: always
+    image: redis:alpine
+    #command: redis-server --requirepass ${REDIS_HOST_PASSWORD}
+    ports:
+      - "6379:6379"
+    environment:
+      - TZ=${TZ}
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - REDIS_REPLICATION_MODE=master
+    volumes:
+      - redis:/data
+    networks:
+      nextcloud:
+        ipv4_address: ${REDIS_IPV4_ADDRESS}
+
+  nextcloud-cron:
+    container_name: nextcloud-cron
+    image: nextcloud:fpm-alpine
+    restart: always
+    volumes:
+      - nextcloud:/var/www/html
+    entrypoint: /cron.sh
+    networks:
+      nextcloud:
+        ipv4_address: ${CRON_IPV4_ADDRESS}
+    depends_on:
+      - nextcloud-postgres
+      - nextcloud-redis

@@ -1,0 +1,68 @@
+version: '3.9'
+
+services:
+  mariadb:
+    container_name: mariadb
+    image: mariadb:10.3
+    restart: unless-stopped
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=true
+      - MYSQL_DATABASE=$MYSQL_DATABASE
+      - MYSQL_USER=$MYSQL_USER
+      - MYSQL_PASSWORD=$MYSQL_PASSWORD
+    volumes:
+      - mariadb_volume:/var/lib/mysql
+
+  passbolt:
+    container_name: passbolt
+    image: passbolt/passbolt:latest-ce
+    restart: unless-stopped
+    depends_on:
+      - mariadb
+    environment:
+      - APP_FULL_BASE_URL=$APP_FULL_BASE_URL
+      - DATASOURCES_DEFAULT_HOST=$DATASOURCES_DEFAULT_HOST
+      - DATASOURCES_DEFAULT_USERNAME=$DATASOURCES_DEFAULT_USERNAME
+      - DATASOURCES_DEFAULT_PASSWORD=$DATASOURCES_DEFAULT_PASSWORD
+      - DATASOURCES_DEFAULT_DATABASE=$DATASOURCES_DEFAULT_DATABASE
+      - EMAIL_TRANSPORT_DEFAULT_HOST=$EMAIL_TRANSPORT_DEFAULT_HOST
+      - EMAIL_TRANSPORT_DEFAULT_PORT=$EMAIL_TRANSPORT_DEFAULT_PORT
+      - EMAIL_TRANSPORT_DEFAULT_USERNAME=$EMAIL_TRANSPORT_DEFAULT_USERNAME
+      - EMAIL_TRANSPORT_DEFAULT_PASSWORD=$EMAIL_TRANSPORT_DEFAULT_PASSWORD
+      - EMAIL_TRANSPORT_DEFAULT_TLS=true
+      - EMAIL_DEFAULT_FROM=$EMAIL_DEFAULT_FROM
+    volumes:
+      - gpg_volume:/etc/passbolt/gpg
+      - jwt_volume:/etc/passbolt/jwt
+    command: ["/usr/bin/wait-for.sh", "-t", "0", "mariadb:3306", "--", "/docker-entrypoint.sh"]
+    labels:
+      traefik.enable: "true"
+      traefik.http.routers.passbolt-http.entrypoints: "web"
+      traefik.http.routers.passbolt-http.rule: "Host(`passbolt.coody.me`)"
+      traefik.http.routers.passbolt-http.middlewares: "SslHeader@file"
+      traefik.http.routers.passbolt-https.middlewares: "SslHeader@file"
+      traefik.http.routers.passbolt-https.entrypoints: "websecure"
+      traefik.http.routers.passbolt-https.rule: "Host(`passbolt.coody.me`)"
+      traefik.http.routers.passbolt-https.tls: "true"
+      traefik.http.routers.passbolt-https.tls.certresolver: "cloudflare"
+
+  traefik:
+    container_name: traefik
+    image: traefik:2.6
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./traefik.yaml:/traefik.yaml:ro
+      - ./conf/:/etc/traefik/conf
+      - ./shared/:/shared
+    environment:
+      - CF_API_EMAIL=$CF_API_EMAIL
+      - CF_API_KEY=$CF_API_KEY
+
+volumes:
+  mariadb_volume:
+  gpg_volume:
+  jwt_volume:
