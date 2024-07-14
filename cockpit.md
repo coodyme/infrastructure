@@ -1,3 +1,7 @@
+# Cockpit
+
+Cockpit is a web-based server manager that makes it easy to administer your GNU/Linux servers via a web browser.
+
 ## Install
 
 Install Cockpit without recommended packages
@@ -12,13 +16,17 @@ If any error occurend when installing cockpit, run the following command (then, 
 apt-get update --fix-missing
 ```
 
+> After installing Cockpit, check if the service is running by running the following command: `systemctl status cockpit`
+
 Allow root to login
 
 ```bash
 nano /etc/cockpit/disallowed-users
 ```
 
-## Download Cockpit Modules
+## Cockpit Modules
+
+Cockpit has several modules that can be installed to extend its functionality. Below are some of the modules that can be installed:
 
 1. File Sharing
 
@@ -44,7 +52,7 @@ https://github.com/45Drives/cockpit-identities/releases/tag/v0.1.12
 wget https://github.com/45Drives/cockpit-identities/releases/download/v0.1.12/cockpit-identities_0.1.12-1focal_all.deb
 ```
 
-## Install Cockpit Modules
+### Install Cockpit Modules
 
 Now, install the modules with the following command:
 
@@ -58,13 +66,12 @@ Remove the downloaded files:
 rm *.deb && ls
 ```
 
-## Configure PVE
+## Setup SAMBA Shares
 
-Go to the PVE web interface and enable the following options:
+1. Go to `Identities`, create a group. Then create a `User` and add the user to the group.
+2. After user creation, click on `Set Samba Password` and set the password.
+3. Go to `File Sharing`, click on `Add Share` and fill in the details.
 
-```bash
-nano /etc/pve/lxc/100.conf
-```
-> 100.conf must be the container ID
+https://www.naturalborncoder.com/linux/2023/07/07/building-a-nas-using-proxmox-part-2/
 
-Add the following line to the file `lxc.apparmor.profile: unconfined`:
+## Setup NFS Shares

@@ -1,4 +1,4 @@
-# ZFS HDD Replace
+# HDD Replacement in ZFS
 
 In this guide, we will replace a failed disk in a ZFS mirror. To do this, we will need to know the disk that failed and the disk that will replace it.
 
