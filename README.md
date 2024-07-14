@@ -1,9 +1,6 @@
 # Infrastructure
 Files and scripts to set up my home lab infrastructure. Here you can find the configuration files for my Proxmox, Docker, Kubernetes clusters and some Terraform scripts.
 
-## Time Zone
-By default, my time zone is `America/Sao_Paulo` for all of my containers. So in the .env file, the `TZ` variable is set to `America/Sao_Paulo`.
-
 ## Proxmox Configuration
 
 For a fresh Proxmox installation, follow the steps below to configure the system.
@@ -39,3 +36,31 @@ ForwardToSyslog=no
 
 > This will reduce ssd wear by disabling journaling.
 
+## ZFS
+
+First of all, we need to create a ZFS pool. To do this, go to the Proxmox web interface and click on `Datacenter` > `Node` > `Disks` > `Create: ZFS`
+
+To list created pools:
+
+```bash
+zpool list
+```
+Then, we can create datasets for the pool:
+
+```bash
+zfs create sg0/backups
+```
+
+We can list created datasets with the following command:
+
+```bash
+zfs list
+```
+
+After creating the datasets, we need to create directories in Proxmox. To do this, go to the Proxmox web interface and click on `Datacenter` > `Storage` > `Add` > `Directory`
+
+- ID: `backups`
+- Directory: `/sg0/backups`
+- Content: `VZDump Backup File`
+
+> You can create various datasets and directories according to your needs.
