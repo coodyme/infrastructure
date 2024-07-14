@@ -1,5 +1,13 @@
 version: '3.7'
 
+networks:
+  vaultwarden:
+    external: true
+
+volumes:
+  vaultwarden:
+    name: vaultwarden
+
 services:
   vaultwarden:
     container_name: vaultwarden
@@ -10,8 +18,6 @@ services:
       - 3012:3012
     environment:
       - TZ=$TZ
-      - PUID=$PUID
-      - PGID=$PGID
       - WEBSOCKET_ENABLED=true
       - DOMAIN=$DOMAIN
       - LOGIN_RATELIMIT_MAX_BURST=10
@@ -25,15 +31,16 @@ services:
       - INVITATIONS_ALLOWED=true
       - SHOW_PASSWORD_HINT=false
       - SIGNUPS_ALLOWED=true
+      - SMTP_HOST=$SMPT_HOST
+      - SMTP_FROM=$SMPT_FROM
+      - SMTP_FROM_NAME=$SMPT_FROM_NAME
+      - SMTP_SECURITY=$SMPT_SECURITY
+      - SMTP_PORT=$SMPT_PORT
+      - SMTP_USERNAME=$SMPT_USERNAME
+      - SMTP_PASSWORD=$SMPT_PASSWORD
+      - SMTP_AUTH_MECHANISM=$SMTP_AUTH_MECHANISM
     volumes:
-      - ${DATA_DIR}/vaultwarden:/data
+      - ${DATA_DIR}:/data
     networks:
-      pegasus:
+      vaultwarden:
 
-networks:
-  pegasus:
-    external: true
-
-volumes:
-  vaultwarden:
-    name: vaultwarden
