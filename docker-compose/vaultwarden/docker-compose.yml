@@ -1,9 +1,3 @@
-version: '3.7'
-
-networks:
-  vaultwarden:
-    external: true
-
 volumes:
   vaultwarden:
     name: vaultwarden
@@ -31,16 +25,14 @@ services:
       - INVITATIONS_ALLOWED=true
       - SHOW_PASSWORD_HINT=false
       - SIGNUPS_ALLOWED=true
-      - SMTP_HOST=$SMPT_HOST
-      - SMTP_FROM=$SMPT_FROM
-      - SMTP_FROM_NAME=$SMPT_FROM_NAME
-      - SMTP_SECURITY=$SMPT_SECURITY
-      - SMTP_PORT=$SMPT_PORT
-      - SMTP_USERNAME=$SMPT_USERNAME
-      - SMTP_PASSWORD=$SMPT_PASSWORD
+      - SMTP_HOST=$SMTP_HOST
+      - SMTP_FROM=$SMTP_FROM
+      - SMTP_FROM_NAME=$SMTP_FROM_NAME
+      - SMTP_SECURITY=$SMTP_SECURITY
+      - SMTP_PORT=$SMTP_PORT
+      - SMTP_USERNAME=$SMTP_USERNAME
+      - SMTP_PASSWORD=$SMTP_PASSWORD
       - SMTP_AUTH_MECHANISM=$SMTP_AUTH_MECHANISM
     volumes:
       - ${DATA_DIR}:/data
-    networks:
-      vaultwarden:
-
+    network_mode: bridge

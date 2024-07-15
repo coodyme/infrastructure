@@ -1,9 +1,5 @@
 version: "3.8"
 
-networks:
-  maybe:
-    external: true
-
 volumes:
   maybe:
     name: maybe
@@ -15,7 +11,7 @@ services:
     container_name: maybe
     image: ghcr.io/maybe-finance/maybe:latest
     volumes:
-      - .${DATA_DIR}/maybe:/rails/storage
+      - ${DATA_DIR}:/rails/storage
     ports:
       - 3000:3000
     restart: unless-stopped
@@ -30,6 +26,7 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       SYNTH_API_KEY: ${SYNTH_API_KEY}
+    network_mode: bridge
     depends_on:
       maybe-postgres:
         condition: service_healthy
@@ -40,7 +37,7 @@ services:
     hostname: maybe-postgres
     restart: unless-stopped
     volumes:
-      - ${DATA_DIR}/maybe-postgres:/var/lib/postgresql/data
+      - ${DATA_DIR}/postgres:/var/lib/postgresql/data
     environment:
       POSTGRES_DB: ${POSTGRES_DB}
       POSTGRES_USER: ${POSTGRES_USER}
@@ -50,4 +47,5 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    network_mode: bridge
 
