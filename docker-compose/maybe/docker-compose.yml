@@ -6,6 +6,10 @@ volumes:
   maybe-postgres:
     name: maybe-postgres
 
+networks:
+  maybe:
+    name: maybe
+
 services:
   maybe:
     container_name: maybe
@@ -26,7 +30,8 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       SYNTH_API_KEY: ${SYNTH_API_KEY}
-    network_mode: bridge
+    networks:
+      - maybe
     depends_on:
       maybe-postgres:
         condition: service_healthy
@@ -47,5 +52,6 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
-    network_mode: bridge
+    networks:
+      - maybe
 
