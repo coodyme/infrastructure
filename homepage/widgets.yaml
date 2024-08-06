@@ -1,0 +1,35 @@
+- datetime:
+      text_size: xl
+      format:
+          timeStyle: short
+
+- resources:
+      cpu: true
+      memory: true
+      disk: /disk/mount/path
+      cputemp: true
+      tempmin: 0 # optional, minimum cpu temp
+      tempmax: 100 # optional, maximum cpu temp
+      uptime: true
+      units: metric # only used by cpu temp
+      refresh: 3000 # optional, in ms
+      diskUnits: bytes # optional, bytes (default) or bbytes. Only applies to disk
+
+- stocks:
+      provider: finnhub
+      color: true # optional, defaults to true
+      cache: 1 # optional, default caches results for 1 minute
+      watchlist:
+          - GME
+          - AMC
+          - NVDA
+          - AMD
+          - TSM
+          - MSFT
+          - AAPL
+          - BRK.A
+
+widget:
+  type: uptimekuma
+  url: http://uptimekuma.host.or.ip:port
+  slug: statuspageslug

@@ -1,0 +1,44 @@
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+  finnhub: yourfinnhubapikeyhere
+
+title: Homepage
+
+background:
+  image: https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg
+  #image: /images/background.png
+  #blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
+  saturate: 50 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
+  brightness: 50 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 30 # 0-100
+  cardBlur: md # sm, "", md, etc... see https://tailwindcss.com/docs/backdrop-blur
+
+layout:
+  Media:
+    style: row
+    columns: 5
+  Data:
+    style: row
+    columns: 2
+    header: false
+  Downloads:
+    style: row
+    columns: 4
+
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: true
+  showSearchSuggestions: false
+  hideVisitURL: false
+  provider: google
+
+hideVersion: false
+
+showStats: true # Show Docker Stats
+
+useEqualHeights: true
+color: slate
+statusStyle: "dot"
+disableCollapse: true
+headerStyle: clean

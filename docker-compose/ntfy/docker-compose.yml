@@ -1,0 +1,38 @@
+version: "3.8"
+
+volumes:
+  ntfy:
+    name: ntfy
+
+networks:
+  ntfy:
+    name: ntfy
+
+services:
+  ntfy:
+    container_name: ntfy
+    hostname: ntfy
+    image: ghcr.io/maybe-finance/maybe:latest
+    volumes:
+      - ${DATA_DIR}:/rails/storage
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+    environment:
+      SELF_HOSTING_ENABLED: "true"
+      RAILS_FORCE_SSL: "false"
+      RAILS_ASSUME_SSL: "false"
+      GOOD_JOB_EXECUTION_MODE: async
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE}
+      DB_HOST: maybe-postgres
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      SYNTH_API_KEY: ${SYNTH_API_KEY}
+    networks:
+      - maybe
+    depends_on:
+      maybe-postgres:
+        condition: service_healthy
+
+

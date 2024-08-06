@@ -1,43 +1,27 @@
-## Creating LXC
+# LXC Containers
 
-When creating LXC, make sure to unflag "Unprivileged container" to avoid permission issues. Also, after creating the container, make sure to enable "Nesting" in the options screen before starting the container.
+A Linux container is a set of one or more processes that are isolated from the rest of the system. All the processes in a container share the same kernel, but each container has its own file system, network interfaces, and process space.
 
-`LXC` > `Options` > `Features` > `Nesting`
+This page contains information on how to create and manage LXC containers on Proxmox VE using Scripts.
 
-## Update and Upgrade
+## Alpine LXC
 
-Before using LXC containers, it is recommended to update and upgrade the container's packages. This is done by running the following commands:
-
-```bash
-apt update && apt full-upgrade -y
-```
-
-## LXC Configuration
-
-In some cases, it is necessary to configure the LXC container to allow access to the host's directories if you are using privileged containers.
-
-To do this, follow the steps below:
-
-Go to the PVE web interface and enable the following options:
+A security-oriented, lightweight Linux distribution based on musl and BusyBox.
+By default, the root password is set to alpine. If you choose to use advanced settings, you will need to define a password, autologin is currently unavailable.
+To create a new Proxmox VE Alpine LXC, run the command below in the Proxmox VE Shell.
 
 ```bash
-nano /etc/pve/lxc/100.conf
+bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/alpine.sh)"
 ```
 
-> .conf must be the container ID
+> Default Password `alpine`
+> To Update Alpine `apk update && apk upgrade`
 
-Add the following line to the file `lxc.apparmor.profile: unconfined`;
+## Debian LXC
 
-## LXC Mount Points
-
-To add mount points to the container, add the following line to the container's configuration file:
+Debian Linux is a distribution that emphasizes free software. It supports many hardware platforms.
+To create a new Proxmox VE Debian LXC, run the command below in the Proxmox VE Shell.
 
 ```bash
-nano /etc/pve/lxc/100.conf
+bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/debian.sh)"
 ```
-and add `mp0:/sg0/nas,mp=/mnt/nas` after the `net0` line. This will link host directory to container directory.
-
-## List of Services
-
-- [Cockpit](cockpit.md) - Web-based server manager that makes it easy to administer your GNU/Linux servers via a web browser.
-

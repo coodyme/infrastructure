@@ -1,4 +1,4 @@
-## Docker
+# Docker
 
 This is a simple `Docker` setup that I use for my projects. It is based on the `docker-compose` file and LXC containers.
 
