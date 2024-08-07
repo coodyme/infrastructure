@@ -25,3 +25,12 @@ To create a new Proxmox VE Debian LXC, run the command below in the Proxmox VE S
 ```bash
 bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/debian.sh)"
 ```
+
+## Ubuntu LXC
+
+Ubuntu is a distribution based on Debian, designed to have regular releases and a consistent user experience.
+To create a new Proxmox VE Ubuntu LXC, run the command below in the Proxmox VE Shell.
+
+```bash
+bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/ubuntu.sh)"
+```

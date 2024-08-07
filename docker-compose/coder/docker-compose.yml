@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  coder:
+    container_name: coder
+    # This MUST be stable for our documentation and
+    # other automations.
+    image: ghcr.io/coder/coder:latest
+    ports:
+      - "7080:7080"
+    environment:
+      CODER_HTTP_ADDRESS: "0.0.0.0:7080"
+      CODER_PG_CONNECTION_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}/${POSTGRES_DB}?sslmode=disable
+      CODER_ACCESS_URL: ${CODER_ACCESS_URL}
+    # If the coder user does not have write permissions on
+    # the docker socket, you can uncomment the following
+    # lines and set the group ID to one that has write
+    # permissions on the docker socket.
+    group_add:
+      - 102 # docker group on the host
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

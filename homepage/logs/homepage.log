@@ -14493,3 +14493,4533 @@
     hostname: 'sonarr.host'
   }
 ]
+[2024-08-06T00:12:41.547Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-08-06T00:12:41.549Z] error: end of the stream or a document separator is expected (32:1)
+
+ 29 |           - AAPL
+ 30 |           - BRK.A
+ 31 | 
+ 32 | widget:
+------^
+ 33 |   type: uptimekuma
+ 34 |   url: http://uptimekuma.host.o ...
+[2024-08-06T00:12:42.158Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-06T00:12:42.523Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:12:42.528Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:12:42.546Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:12:42.547Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:12:42.631Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-08-06T00:12:42.632Z] error: end of the stream or a document separator is expected (32:1)
+
+ 29 |           - AAPL
+ 30 |           - BRK.A
+ 31 | 
+ 32 | widget:
+------^
+ 33 |   type: uptimekuma
+ 34 |   url: http://uptimekuma.host.o ...
+[2024-08-06T00:12:43.037Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-06T00:12:43.062Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-08-06T00:12:43.062Z] error: end of the stream or a document separator is expected (32:1)
+
+ 29 |           - AAPL
+ 30 |           - BRK.A
+ 31 | 
+ 32 | widget:
+------^
+ 33 |   type: uptimekuma
+ 34 |   url: http://uptimekuma.host.o ...
+[2024-08-06T00:12:43.079Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/stats/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-06T00:12:43.254Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:12:43.255Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:12:43.267Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:12:43.268Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:12:43.277Z] error: undefined
+[2024-08-06T00:12:48.754Z] error: undefined
+[2024-08-06T00:12:54.563Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-06T00:12:54.568Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/stats/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-06T00:12:54.579Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-08-06T00:12:54.579Z] error: end of the stream or a document separator is expected (32:1)
+
+ 29 |           - AAPL
+ 30 |           - BRK.A
+ 31 | 
+ 32 | widget:
+------^
+ 33 |   type: uptimekuma
+ 34 |   url: http://uptimekuma.host.o ...
+[2024-08-06T00:12:54.596Z] error: undefined
+[2024-08-06T00:12:54.597Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:12:54.597Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:12:54.603Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:12:54.603Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:12:58.759Z] error: undefined
+[2024-08-06T00:13:04.606Z] error: undefined
+[2024-08-06T00:13:13.016Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:13:13.016Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:13:13.027Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:13:13.027Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:13:19.616Z] error: undefined
+[2024-08-06T00:13:43.054Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:13:43.055Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:13:43.066Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:13:43.067Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:13:43.765Z] error: undefined
+[2024-08-06T00:14:04.622Z] error: undefined
+[2024-08-06T00:14:13.086Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:14:13.086Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:14:13.263Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:14:13.264Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:14:33.770Z] error: undefined
+[2024-08-06T00:14:43.279Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:14:43.280Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:14:43.293Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:14:43.293Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:15:13.312Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:15:13.312Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:15:18.317Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:15:18.317Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:15:29.627Z] error: undefined
+[2024-08-06T00:15:48.344Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:15:48.345Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:15:48.352Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:15:48.352Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:16:18.363Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:16:18.363Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:16:18.370Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:16:18.370Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:16:38.776Z] error: undefined
+[2024-08-06T00:16:48.382Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:16:48.382Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:16:48.404Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:16:48.405Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:17:09.633Z] error: undefined
+[2024-08-06T00:17:18.417Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:17:18.417Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:17:18.424Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:17:18.424Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:17:48.436Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:17:48.436Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:17:48.443Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:17:48.443Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:18:18.455Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:18:18.455Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:18:18.462Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:18:18.462Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:18:48.474Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:18:48.474Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:18:48.482Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:18:48.482Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:19:18.494Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:19:18.494Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:19:18.501Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:19:18.501Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:19:48.516Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:19:48.517Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:19:48.524Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:19:48.524Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:20:19.639Z] error: undefined
+[2024-08-06T00:20:23.533Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:20:23.533Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:20:28.530Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:20:28.530Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:20:58.550Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:20:58.551Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:20:58.621Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:20:58.621Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:21:28.659Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:21:28.659Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:21:28.670Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:21:28.671Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:21:43.782Z] error: undefined
+[2024-08-06T00:21:58.689Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:21:58.689Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:21:58.697Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:21:58.697Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:22:28.713Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:22:28.713Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:22:28.722Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:22:28.722Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:22:58.741Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:22:58.741Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:22:58.791Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:22:58.791Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:23:28.810Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:23:28.810Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:23:28.998Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:23:28.999Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:23:59.015Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:23:59.016Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:23:59.024Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:23:59.025Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:24:29.041Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:24:29.041Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:24:29.052Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:24:29.052Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:24:59.068Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:24:59.069Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:24:59.081Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:24:59.081Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:25:29.100Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:25:29.100Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:25:29.425Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:25:29.425Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:25:59.445Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:25:59.445Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:25:59.453Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:25:59.454Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:26:29.471Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:26:29.471Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:26:29.485Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:26:29.485Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:26:59.503Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:26:59.504Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:26:59.516Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:26:59.516Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:27:29.537Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:27:29.537Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:27:29.555Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:27:29.555Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:27:59.622Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:27:59.622Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:27:59.630Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:27:59.630Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:28:29.751Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:28:29.751Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:28:34.756Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:28:34.756Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:28:39.645Z] error: undefined
+[2024-08-06T00:29:04.785Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:29:04.785Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:29:04.799Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:29:04.799Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:29:34.938Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:29:34.938Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:29:34.945Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:29:34.945Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:30:04.964Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:30:04.964Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:30:04.971Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:30:04.972Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:30:34.987Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:30:34.987Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:30:34.994Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:30:34.994Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:31:05.005Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:31:05.006Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:31:05.013Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:31:05.013Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:31:35.029Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:31:35.029Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:31:35.035Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:31:35.036Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:32:05.048Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:32:05.048Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:32:05.055Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:32:05.056Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:32:35.071Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:32:35.071Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:32:35.078Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:32:35.078Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:33:05.093Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:33:05.093Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:33:05.100Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:33:05.100Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:33:35.117Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:33:35.118Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:33:35.125Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:33:35.125Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:34:05.136Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:34:05.137Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:34:05.143Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:34:05.144Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:34:35.160Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:34:35.160Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:34:35.167Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:34:35.167Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:35:05.179Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:35:05.179Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:35:05.187Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:35:05.187Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:35:35.199Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:35:35.199Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:35:35.206Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:35:35.206Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:36:05.220Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:36:05.220Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:36:05.226Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:36:05.227Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:36:18.787Z] error: undefined
+[2024-08-06T00:36:35.239Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:36:35.239Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:36:35.246Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:36:35.246Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:37:05.266Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:37:05.267Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:37:05.273Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:37:05.274Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:37:35.287Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:37:35.287Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:37:35.295Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:37:35.295Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:38:05.315Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:38:05.315Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:38:05.322Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:38:05.322Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:38:35.341Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:38:35.341Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:38:35.349Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:38:35.349Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:39:05.361Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:39:05.361Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:39:05.369Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:39:05.369Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:39:35.381Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:39:35.381Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:39:35.388Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:39:35.388Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:40:05.407Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:40:05.407Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:40:05.448Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:40:05.448Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:40:35.460Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:40:35.460Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:40:35.467Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:40:35.467Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:41:05.478Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:41:05.479Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:41:05.486Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:41:05.486Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:41:35.497Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:41:35.497Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:41:35.535Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:41:35.535Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:42:05.547Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:42:05.547Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:42:05.551Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:42:05.551Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:42:35.563Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:42:35.563Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:42:35.570Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:42:35.570Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:43:05.589Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:43:05.590Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:43:05.596Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:43:05.597Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:43:35.609Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:43:35.609Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:43:35.618Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:43:35.618Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:44:05.796Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:44:05.796Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:44:05.806Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:44:05.806Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:44:35.829Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:44:35.829Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:44:35.905Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:44:35.905Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:45:05.921Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:45:05.921Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:45:05.930Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:45:05.930Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:45:35.948Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:45:35.948Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:45:35.960Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:45:35.961Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:46:05.976Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:46:05.976Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:46:05.988Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:46:05.988Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:46:36.003Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:46:36.003Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:46:36.013Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:46:36.013Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:47:06.033Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:47:06.033Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:47:06.046Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:47:06.046Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:47:36.061Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:47:36.061Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:47:36.073Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:47:36.074Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:48:06.089Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:48:06.089Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:48:06.097Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:48:06.097Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:48:36.113Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:48:36.113Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:48:36.129Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:48:36.130Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:49:06.145Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:49:06.145Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:49:06.156Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:49:06.156Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:49:36.172Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:49:36.172Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:49:36.180Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:49:36.180Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:50:06.199Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:50:06.199Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:50:06.232Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:50:06.233Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:50:36.249Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:50:36.250Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:50:36.261Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:50:36.262Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:51:06.277Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:51:06.277Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:51:06.289Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:51:06.289Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:51:36.304Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:51:36.305Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:51:36.313Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:51:36.314Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:52:03.793Z] error: undefined
+[2024-08-06T00:52:06.330Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:52:06.330Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:52:06.341Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:52:06.342Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:52:36.380Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:52:36.380Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:52:36.390Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:52:36.390Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:53:06.403Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:53:06.403Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:53:06.412Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:53:06.412Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:53:36.427Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:53:36.427Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:53:36.436Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:53:36.436Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:54:06.453Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:54:06.453Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:54:06.557Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:54:06.557Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:54:36.571Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:54:36.572Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:54:36.605Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:54:36.605Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:55:06.626Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:55:06.626Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:55:06.640Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:55:06.641Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:55:36.655Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:55:36.655Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:55:36.667Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:55:36.667Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:56:06.684Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:56:06.685Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:56:06.699Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:56:06.700Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:56:36.730Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:56:36.730Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:56:36.742Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:56:36.742Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:57:06.766Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:57:06.766Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:57:06.780Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:57:06.781Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:57:36.801Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:57:36.801Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:57:36.810Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:57:36.810Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:58:06.826Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:58:06.826Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:58:06.835Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:58:06.835Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:58:36.851Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:58:36.851Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:58:36.859Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:58:36.859Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:59:06.931Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:59:06.931Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:59:06.942Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:59:06.942Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:59:24.654Z] error: undefined
+[2024-08-06T00:59:36.963Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:59:36.963Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T00:59:37.097Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T00:59:37.097Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:00:07.112Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:00:07.112Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:00:07.126Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:00:07.126Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:00:37.144Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:00:37.144Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:00:37.155Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:00:37.155Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:01:07.174Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:01:07.175Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:01:07.411Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:01:07.411Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:01:37.434Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:01:37.434Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:01:37.444Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:01:37.444Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:02:07.461Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:02:07.461Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:02:07.519Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:02:07.519Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:02:37.542Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:02:37.542Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:02:37.555Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:02:37.555Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:03:07.572Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:03:07.572Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:03:07.583Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:03:07.583Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:03:37.599Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:03:37.599Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:03:37.609Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:03:37.609Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:04:07.640Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:04:07.640Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:04:07.836Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:04:07.837Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:04:37.854Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:04:37.855Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:04:37.867Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:04:37.867Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:05:07.888Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:05:07.888Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:05:07.899Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:05:07.900Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:05:37.918Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:05:37.918Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:05:37.933Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:05:37.933Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:06:07.957Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:06:07.957Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:06:08.257Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:06:08.257Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:06:38.281Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:06:38.281Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:06:38.464Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:06:38.464Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:07:08.554Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:07:08.554Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:07:08.565Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:07:08.565Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:07:38.586Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:07:38.586Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:07:38.602Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:07:38.603Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:08:08.623Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:08:08.623Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:08:08.677Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:08:08.677Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:08:38.695Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:08:38.695Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:08:38.705Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:08:38.705Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:09:08.725Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:09:08.725Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:09:08.735Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:09:08.735Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:09:38.753Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:09:38.754Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:09:38.787Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:09:38.788Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:10:08.806Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:10:08.806Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:10:08.817Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:10:08.817Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:10:38.832Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:10:38.832Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:10:38.842Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:10:38.842Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:11:08.858Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:11:08.859Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:11:08.870Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:11:08.871Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:11:38.888Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:11:38.888Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:11:38.901Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:11:38.901Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:12:08.920Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:12:08.920Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:12:08.934Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:12:08.935Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:12:38.954Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:12:38.954Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:12:38.966Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:12:38.967Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:13:08.989Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:13:08.989Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:13:09.004Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:13:09.004Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:13:39.143Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:13:39.143Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:13:39.150Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:13:39.150Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:14:09.164Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:14:09.165Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:14:09.171Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:14:09.171Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:14:39.187Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:14:39.187Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:14:39.195Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:14:39.195Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:15:09.209Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:15:09.209Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:15:09.222Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:15:09.222Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:15:39.236Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:15:39.236Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:15:39.242Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:15:39.242Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:16:09.253Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:16:09.254Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:16:09.260Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:16:09.260Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:16:39.275Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:16:39.275Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:16:39.283Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:16:39.283Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:17:09.296Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:17:09.296Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:17:09.304Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:17:09.304Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:17:39.320Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:17:39.320Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:17:39.331Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:17:39.331Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:18:09.353Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:18:09.354Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:18:09.360Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:18:09.360Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:18:39.372Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:18:39.372Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:18:39.378Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:18:39.378Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:19:09.404Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:19:09.405Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:19:09.415Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:19:09.416Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:19:39.441Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:19:39.441Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:19:39.448Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:19:39.449Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:20:09.464Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:20:09.464Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:20:09.471Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:20:09.472Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:20:38.799Z] error: undefined
+[2024-08-06T01:20:39.491Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:20:39.492Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:20:39.502Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:20:39.502Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:21:09.512Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:21:09.513Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:21:09.519Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:21:09.519Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:21:39.532Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:21:39.532Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:21:39.539Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:21:39.539Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:22:09.552Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:22:09.552Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:22:09.557Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:22:09.557Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:22:39.572Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:22:39.573Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:22:39.579Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:22:39.579Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:23:09.591Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:23:09.591Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:23:09.598Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:23:09.598Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:23:39.613Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:23:39.613Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:23:39.620Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:23:39.620Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:24:06.861Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-06T01:24:06.902Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-08-06T01:24:06.902Z] error: end of the stream or a document separator is expected (32:1)
+
+ 29 |           - AAPL
+ 30 |           - BRK.A
+ 31 | 
+ 32 | widget:
+------^
+ 33 |   type: uptimekuma
+ 34 |   url: http://uptimekuma.host.o ...
+[2024-08-06T01:24:06.917Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/stats/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-06T01:24:06.919Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:24:06.920Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:24:06.948Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:24:06.948Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:24:06.953Z] error: undefined
+[2024-08-06T01:24:09.636Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:24:09.636Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:24:09.643Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:24:09.643Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:24:16.977Z] error: undefined
+[2024-08-06T01:24:19.661Z] error: undefined
+[2024-08-06T01:24:36.987Z] error: undefined
+[2024-08-06T01:24:39.672Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:24:39.673Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:24:39.682Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:24:39.682Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:25:09.699Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:25:09.699Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:25:09.706Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:25:09.706Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:25:27.010Z] error: undefined
+[2024-08-06T01:25:39.721Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:25:39.721Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:25:39.728Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:25:39.728Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:25:51.594Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-06T01:25:51.600Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/stats/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-06T01:25:51.605Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-08-06T01:25:51.606Z] error: end of the stream or a document separator is expected (32:1)
+
+ 29 |           - AAPL
+ 30 |           - BRK.A
+ 31 | 
+ 32 | widget:
+------^
+ 33 |   type: uptimekuma
+ 34 |   url: http://uptimekuma.host.o ...
+[2024-08-06T01:25:51.636Z] error: undefined
+[2024-08-06T01:25:51.637Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:25:51.637Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:25:51.648Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:25:51.649Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:25:56.648Z] error: undefined
+[2024-08-06T01:26:09.744Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:26:09.744Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:26:09.749Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:26:09.749Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:26:11.771Z] error: undefined
+[2024-08-06T01:26:39.763Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:26:39.763Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:26:39.769Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:26:39.770Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:26:52.018Z] error: undefined
+[2024-08-06T01:27:06.785Z] error: undefined
+[2024-08-06T01:27:09.825Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:27:09.826Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:27:09.833Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:27:09.833Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:27:39.851Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:27:39.851Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:27:39.858Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:27:39.858Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:28:09.873Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:28:09.873Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:28:09.880Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:28:09.880Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:28:39.908Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:28:39.909Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:28:39.922Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:28:39.922Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:28:56.790Z] error: undefined
+[2024-08-06T01:29:09.945Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:29:09.945Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:29:09.952Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:29:09.953Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:29:39.969Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:29:39.969Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:29:39.976Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:29:39.977Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:30:09.991Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:30:09.992Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:30:09.998Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:30:09.998Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:30:12.025Z] error: undefined
+[2024-08-06T01:30:40.012Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:30:40.012Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:30:40.018Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:30:40.018Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:31:10.030Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:31:10.030Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:31:10.037Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:31:10.037Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:31:40.051Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:31:40.051Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:31:40.057Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:31:40.057Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:32:10.074Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:32:10.074Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:32:10.081Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:32:10.081Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:32:45.092Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:32:45.092Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:32:46.552Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:32:46.552Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:32:46.796Z] error: undefined
+[2024-08-06T01:33:16.605Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:33:16.605Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:33:16.615Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:33:16.616Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:33:46.634Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:33:46.634Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:33:46.707Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:33:46.707Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:34:02.031Z] error: undefined
+[2024-08-06T01:34:16.732Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:34:16.732Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:34:16.749Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:34:16.749Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:34:46.768Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:34:46.768Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:34:46.781Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:34:46.781Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:35:16.803Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:35:16.804Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:35:16.820Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:35:16.820Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:35:46.840Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:35:46.840Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:35:46.850Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:35:46.850Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:36:16.868Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:36:16.868Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:36:16.881Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:36:16.881Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:36:46.898Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:36:46.898Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:36:46.910Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:36:46.911Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:37:16.928Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:37:16.929Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:37:16.939Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:37:16.939Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:37:46.957Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:37:46.957Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:37:46.965Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:37:46.965Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:38:16.982Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:38:16.982Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:38:16.993Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:38:16.993Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:38:47.007Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:38:47.007Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:38:47.017Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:38:47.017Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:39:17.038Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:39:17.038Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:39:17.055Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:39:17.055Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:39:47.077Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:39:47.077Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:39:47.091Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:39:47.092Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:40:01.803Z] error: undefined
+[2024-08-06T01:40:17.109Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:40:17.109Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:40:17.116Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:40:17.116Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:40:47.128Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:40:47.128Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:40:47.136Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:40:47.136Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:41:17.147Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:41:17.148Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:41:17.155Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:41:17.155Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:41:47.171Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:41:47.171Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:41:47.311Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:41:47.311Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:42:17.325Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:42:17.326Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:42:17.337Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:42:17.337Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:42:29.668Z] error: undefined
+[2024-08-06T01:42:47.354Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:42:47.354Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:42:47.364Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:42:47.364Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:43:17.385Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:43:17.386Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:43:17.412Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:43:17.412Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:43:47.432Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:43:47.432Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:43:47.536Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:43:47.536Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:43:48.806Z] error: undefined
+[2024-08-06T01:44:17.553Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:44:17.553Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:44:17.565Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:44:17.565Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:44:47.583Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:44:47.583Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:44:47.594Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:44:47.595Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:45:17.636Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:45:17.638Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:45:17.653Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:45:17.653Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:45:47.758Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:45:47.758Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:45:47.845Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:45:47.845Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:46:11.809Z] error: undefined
+[2024-08-06T01:46:17.858Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:46:17.858Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:46:17.865Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:46:17.865Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:46:47.880Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:46:47.880Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:46:47.887Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:46:47.887Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:47:09.015Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-08-06T01:47:09.015Z] error: end of the stream or a document separator is expected (32:1)
+
+ 29 |           - AAPL
+ 30 |           - BRK.A
+ 31 | 
+ 32 | widget:
+------^
+ 33 |   type: uptimekuma
+ 34 |   url: http://uptimekuma.host.o ...
+[2024-08-06T01:47:09.027Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-06T01:47:09.029Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/stats/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-06T01:47:09.060Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:47:09.060Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-06T01:47:09.064Z] error: undefined
+[2024-08-06T01:47:09.069Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-06T01:47:09.069Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-07T11:26:39.264Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-08-07T11:26:39.264Z] error: end of the stream or a document separator is expected (32:1)
+
+ 29 |           - AAPL
+ 30 |           - BRK.A
+ 31 | 
+ 32 | widget:
+------^
+ 33 |   type: uptimekuma
+ 34 |   url: http://uptimekuma.host.o ...
+[2024-08-07T11:26:39.288Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-07T11:26:39.290Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'other-server')
+    at getDockerArguments (/app/.next/server/chunks/9943.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/stats/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-08-07T11:26:39.439Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-07T11:26:39.439Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-07T11:26:39.455Z] error: <httpProxy> Error calling http://sonarr.host/...
+[2024-08-07T11:26:39.455Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND sonarr.host
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'sonarr.host'
+  }
+]
+[2024-08-07T11:26:39.861Z] error: undefined
