@@ -9,6 +9,3 @@ By default, I always use `ttek` to create my containers. This is a script that I
 ```bash
 bash -c "$(wget -qO - https://github.com/tteck/Proxmox/raw/main/ct/alpine-docker.sh)"
 ```
-
-## Time Zone
-By default, my time zone is `America/Sao_Paulo` for all of my containers. So in the .env file, the `TZ` variable is set to `America/Sao_Paulo`.
