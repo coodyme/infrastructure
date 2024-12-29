@@ -4,7 +4,7 @@ This guide will walk you through the steps to deploy a Dragonfly instance using 
 
 > This guide assumes you have `docker` and `docker-compose` installed on your machine. If not, Install `Docker` and `Docker Compose` before continuing.
 
-> If you are running Proxmox VE, follow this [guide](../docker.md) to install Docker and Docker Compose on Proxmox VE
+> If you are running Proxmox VE, follow this [guide](../proxmox/docker.md) to install Docker and Docker Compose on Proxmox VE
 
 1. Download the `docker-compose.yml` file from the repository.
 wget 
