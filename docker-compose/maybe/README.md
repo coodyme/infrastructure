@@ -38,3 +38,4 @@ If everything is working, you will see the Maybe login screen.
 
 ## How to update your app
 
+https://github.com/maybe-finance/maybe/blob/main/docs/hosting/docker.md
