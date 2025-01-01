@@ -48,7 +48,7 @@ services:
 
   traefik:
     container_name: traefik
-    image: traefik:2.6
+    image: traefik:v2.11
     restart: always
     ports:
       - 80:80
